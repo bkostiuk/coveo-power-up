@@ -1,1 +1,17 @@
-{"uri": "https://www.imdb.com/title/tt8108198/", "year": 2018, "movieTitle": "Andhadhun", "genre": "Crime,Drama,Music,Mystery,Thriller", "rating": 8.2, "posterUri": "https://m.media-amazon.com/images/M/MV5BZWZhMjhhZmYtOTIzOC00MGYzLWI1OGYtM2ZkN2IxNTI4ZWI3XkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_UY268_CR1,0,182,268_AL_.jpg", "summary": "A series of mysterious events change the life of a blind pianist, who must now report a crime that he should technically know nothing of.", "synopsis": "Akash a blind pianist is preparing for a London concert.Sophie's scooter bumps into Akash and upon finding he a pianist she takes him to her restaurant Franco's run by her father and offers him a job.Akash meets 70s actor Pramod Sinha at the restaurant who asks him to do a private concert of his songs at his residence to surprise his wife Simi. Next Day upon reaching his house a shocking surprise is waiting for Akash.", "director": "Sriram Raghavan", "writer": "Arijit Biswas,Yogesh Chandekar", "stars": "Ayushmann Khurrana,Tabu,Radhika Apte", "trivia": "Ayushmann Khurrana is a musician in real life.", "languages": "Hindi,English", "budget": 4500000, "runtime": 139}
+{
+  "uri": "https://www.imdb.com/title/tt8108198/",
+  "year": 2018,
+  "movieTitle": "Andhadhun",
+  "genre": "Crime;Drama;Music;Mystery;Thriller",
+  "rating": 8.2,
+  "posterUri": "https://m.media-amazon.com/images/M/MV5BZWZhMjhhZmYtOTIzOC00MGYzLWI1OGYtM2ZkN2IxNTI4ZWI3XkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_UY268_CR1,0,182,268_AL_.jpg",
+  "summary": "A series of mysterious events change the life of a blind pianist, who must now report a crime that he should technically know nothing of.",
+  "synopsis": "Akash a blind pianist is preparing for a London concert.Sophie's scooter bumps into Akash and upon finding he a pianist she takes him to her restaurant Franco's run by her father and offers him a job.Akash meets 70s actor Pramod Sinha at the restaurant who asks him to do a private concert of his songs at his residence to surprise his wife Simi. Next Day upon reaching his house a shocking surprise is waiting for Akash.",
+  "director": "Sriram Raghavan",
+  "writer": "Arijit Biswas;Yogesh Chandekar",
+  "stars": "Ayushmann Khurrana;Tabu;Radhika Apte",
+  "trivia": "Ayushmann Khurrana is a musician in real life.",
+  "languages": "Hindi;English",
+  "budget": 4500000,
+  "runtime": 139
+}

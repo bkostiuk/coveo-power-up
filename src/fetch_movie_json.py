@@ -5,6 +5,9 @@ from bs4 import BeautifulSoup
 ## Runs a script to scrape the top 250 IMDB movies along with
 ## related information and write to json files in ../dataset
 
+DOMAIN = "https://www.imdb.com"
+START_URL = "/chart/top?ref_=helpms_ih_gi_siteindex"
+
 # Get a list of urls for all movies at domain/start_url
 def get_all_movie_page_urls(domain: str, start_url: str):
     page_html = requests.get(domain + start_url)
@@ -22,7 +25,6 @@ def get_all_movie_page_urls(domain: str, start_url: str):
 
     print("Found {0} links on page {1}".format(link_count, domain + start_url))
     return links
-
 
 # Get the movie details as a dictionary
 def get_movie_details(movie_page_url: str):
@@ -126,11 +128,11 @@ def write_to_json_file(filename, content):
 def get_num(s : str):
     return int(''.join(filter(str.isdigit, s)))
 
+def main():
+    for url in get_all_movie_page_urls(DOMAIN, START_URL):
+        print("Running url: " + url)
+        details = get_movie_details(url)
+        write_to_json_file(details['movieTitle'], details)
 
-DOMAIN = "https://www.imdb.com"
-START_URL = "/chart/top?ref_=helpms_ih_gi_siteindex"
-
-for url in get_all_movie_page_urls(DOMAIN, START_URL):
-    print("Running url: " + url)
-    details = get_movie_details(url)
-    write_to_json_file(details['movieTitle'], details)
+if __name__ == '__main__':
+    main()
